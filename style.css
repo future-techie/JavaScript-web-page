@@ -1,0 +1,33 @@
+body {
+  background-color: #e1f0da;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main {
+  margin: 2% 20%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5%;
+  line-height: 150%;
+}
+h1,
+h3 {
+  margin-left: 35%;
+  color: #73b44d;
+}
+p {
+  color: #99bc85;
+}
+span {
+  color: #73b44d;
+  font-weight: bold;
+}
+footer,
+a {
+  color: #73b44d;
+}
+footer{
+  margin-left: 15%;
+
+}
