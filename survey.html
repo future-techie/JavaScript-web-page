@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Language Survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h3>This is a survey for programming languages</h3>
+      </header>
+      <div>
+        <h4>Section one</h4>
+        <p>Fill in your correct bio data</p>
+        <form class="section_one">
+          <label for="name"> Name</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </form>
+      </div>
+      <div>
+        <h4>Section two</h4>
+        <p>Select your level of experience as a programmer</p>
+        <label for="experience"></label>
+        <select name="experience" id="experience">
+          <option value="Hobbyist">Hobbyist</option>
+          <option value="Student">Student</option>
+          <option value="Intern">Intern</option>
+          <option value="Professional">Professional</option>
+        </select>
+      </div>
+      <div>
+        <h4>Section three</h4>
+        <p>Select the OS you like the most</p>
+        <form class="section_three">
+          <input type="radio" name="fav_languag" id="linux" />
+          <label for="linux">Linux</label>
+          <input type="radio" name="fav_languag" id="macos" />
+          <label for="macos">MacOS</label>
+          <input type="radio" name="fav_languag" id="windows" />
+          <label for="windows">Windows</label>
+        </form>
+      </div>
+      <div>
+        <h4>Section four</h4>
+        <p>Select the programming languages you are interested in</p>
+        <form class="section_four">
+          <input type="checkbox" name="c" id="c" />
+          <label for="c">C</label>
+          <input type="checkbox" name="c++" id="c++" />
+          <label for="c++">C++</label>
+          <input type="checkbox" name="c#" id="c#" />
+          <label for="c#">C#</label>
+          <input type="checkbox" name="javascript" id="javascript" />
+          <label for="javascript">JavaScript</label>
+          <input type="checkbox" name="typescript" id="typescript" />
+          <label for="typescript">TypeScript</label>
+        </form>
+      </div>
+      <div class="comment">
+        <p>Futher Comment</p>
+        <input type="text" name="comment" id="comment" placeholder="Enter Comment" />
+      </div>
+      <div class="btn">
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

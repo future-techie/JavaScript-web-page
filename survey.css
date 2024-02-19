@@ -1,0 +1,86 @@
+body {
+  background-color: #e1f0da;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main {
+  margin: 2% 20%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5%;
+  color: #99bc85;
+}
+h3,
+h4 {
+  color: #73b44d;
+}
+h3 {
+  margin-left: 15%;
+  padding: 2%;
+}
+button,
+select {
+  color: #99bc85;
+}
+.section_one {
+  display: grid;
+  grid-template-columns: 100px 0.8fr;
+  gap: 25px;
+  padding: 2%;
+}
+.section_one label {
+  grid-column: 1 / 2;
+}
+.section_one input {
+  grid-column: 2/3;
+  height: 100%;
+}
+
+.section_four {
+  display: grid;
+  grid-template-columns: 100px 0.8fr;
+  gap: 25px;
+}
+.section_four input {
+  grid-column: 1/2;
+}
+.section_four label {
+  grid-column: 2/3;
+}
+.section_four input:hover{
+    cursor: pointer;
+}
+.section_three {
+  display: grid;
+  grid-template-columns: 100px 0.8fr;
+  gap: 25px;
+}
+.section_three input {
+  grid-column: 1/2;
+  }
+.section_three label {
+  grid-column: 2/3;
+}
+.section_three input:hover{
+    cursor: pointer;
+}
+.comment input {
+  margin-left: 10%;
+  width: 500px;
+  height: 100px;
+}
+.btn {
+  padding: 5%;
+  margin-left: 35%;
+}
+.btn button {
+  padding: 10px;
+  background-color: #73b44d;
+  border: none;
+  border-radius: 5px;
+  color: #e1f0da;
+}
+.btn button:hover{
+    cursor: pointer;
+}
